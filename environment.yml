@@ -1,0 +1,13 @@
+name: fhir
+dependencies:
+- python=3.9
+- numpy=1.22.3
+- pandas=1.4.2
+- dash
+- pip
+- pip:
+  - fhirpath==0.10.5
+  - dash_html_components==2.0.0
+  - fhirclient
+  - flask
+  - fhir.resources==7.1.0
